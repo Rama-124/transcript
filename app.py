@@ -7,7 +7,7 @@ import json
 from summarizer import summarize_text
 from werkzeug.utils import secure_filename
 app = Flask(__name__)
-app.secret_key = "supersecretkey"
+app.secret_key = os.getenv("FLASK_SECRET_KEY", "dev-secret-key")
 # Load Whisper Model
 asr_model = whisper.load_model("small")
 # Upload Folders
@@ -25,11 +25,12 @@ os.makedirs(COMBINED_FOLDER, exist_ok=True)
 # MySQL Connection
 def get_db_connection():
     return mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="1986",
-        database="transcribeflow"
+        host=os.getenv("DB_HOST", "localhost"),
+        user=os.getenv("DB_USER", "root"),
+        password=os.getenv("DB_PASSWORD", ""),
+        database=os.getenv("DB_NAME", "transcribeflow")
     )
+
 # Login Page
 @app.route('/')
 def login_page():
@@ -171,3 +172,6 @@ def logout():
 # Run App
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+
