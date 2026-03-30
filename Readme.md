@@ -6,6 +6,9 @@ TranscribeFlow AI is a full-stack web application that converts speech into text
 
 It is designed as a real-world, industry-grade AI SaaS platform with secure user authentication, database storage, and intelligent document generation.
 
+GitHub Repository:
+https://github.com/Rama-124/transcript
+
 ---
 
 ## FEATURES
@@ -165,3 +168,10 @@ JSON File         → Structured metadata
 Harikrishna
 AI & Full Stack Developer
 Passionate about building intelligent real-world software systems.
+
+---
+
+## LICENSE
+
+This project is licensed under the MIT License.
+See the LICENSE file for details.
