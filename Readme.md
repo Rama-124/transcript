@@ -2,6 +2,9 @@
 TranscribeFlow: Audio Transcript Summarizer
 ============================================================
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Rama-124/transcript/blob/main/LICENSE)
+License: MIT
+
 TranscribeFlow AI is a full-stack web application that converts speech into text using Artificial Intelligence, generates smart summaries, and provides downloadable structured reports. The system supports both audio file uploads and live voice recording.
 
 It is designed as a real-world, industry-grade AI SaaS platform with secure user authentication, database storage, and intelligent document generation.
