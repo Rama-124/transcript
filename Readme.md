@@ -173,5 +173,9 @@ Passionate about building intelligent real-world software systems.
 
 ## LICENSE
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Rama-124/transcript/blob/main/LICENSE)
+
 This project is licensed under the MIT License.
-See the LICENSE file for details.
+See the [LICENSE](https://github.com/Rama-124/transcript/blob/main/LICENSE) file on GitHub.
+
+GitHub: https://github.com/Rama-124/transcript
